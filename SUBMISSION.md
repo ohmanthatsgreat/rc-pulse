@@ -41,13 +41,14 @@ rc-pulse report --api-key YOUR_RC_SECRET_KEY --format html -o report.html
 
 ### 3. Video Tutorial
 
-**🔗 Video:** [Watch the demo](https://github.com/ohmanthatsgreat/rc-pulse/blob/main/demo/)
+**🔗 Video (MP4 with voiceover):** [Watch the demo](https://github.com/ohmanthatsgreat/rc-pulse/blob/main/demo/rc-pulse-demo-with-voice.mp4)
+**🔗 GIF (silent):** [View the GIF](https://github.com/ohmanthatsgreat/rc-pulse/blob/main/demo/rc-pulse-demo.gif)
+**🔗 Asciinema recording:** [View on asciinema](https://github.com/ohmanthatsgreat/rc-pulse/blob/main/demo/rc-pulse-demo.cast)
 
-1-3 minute screen recording demonstrating:
+~1 minute screen recording demonstrating:
 - Running RC Pulse against the live Dark Noise API
-- Walking through the health report output
-- Explaining the Pulse Score dimensions
-- Showing different output formats
+- Walking through the health report output (Pulse Score, risk flags, recommendations)
+- AI-generated voiceover explaining each section
 
 ---
 
