@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RC Pulse — Dark Noise</title>
+<style>
+  :root { --bg: #0d1117; --card: #161b22; --border: #30363d; --text: #c9d1d9;
+           --accent: #58a6ff; --green: #3fb950; --yellow: #d29922; --red: #f85149; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+          background: var(--bg); color: var(--text); padding: 2rem; line-height: 1.6; }
+  .container { max-width: 900px; margin: 0 auto; }
+  h1 { color: var(--accent); margin-bottom: 0.5rem; }
+  .meta { color: #8b949e; margin-bottom: 2rem; }
+  .score-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+                 padding: 2rem; margin-bottom: 2rem; text-align: center; }
+  .score-number { font-size: 4rem; font-weight: bold; color: var(--accent); }
+  .score-grade { font-size: 1.5rem; margin-top: 0.5rem; }
+  .dimensions { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                 gap: 1rem; margin-top: 1.5rem; }
+  .dim { background: var(--bg); border-radius: 8px; padding: 1rem; text-align: center; }
+  .dim-label { font-size: 0.8rem; text-transform: uppercase; color: #8b949e; }
+  .dim-value { font-size: 1.5rem; font-weight: bold; margin-top: 0.25rem; }
+  .metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                   gap: 1rem; margin-bottom: 2rem; }
+  .metric { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+             padding: 1.5rem; }
+  .metric-name { font-size: 0.85rem; color: #8b949e; text-transform: uppercase; }
+  .metric-value { font-size: 1.8rem; font-weight: bold; margin: 0.5rem 0; }
+  .metric-change { font-size: 0.9rem; }
+  .metric-change.positive { color: var(--green); }
+  .metric-change.negative { color: var(--red); }
+  .section { background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+              padding: 1.5rem; margin-bottom: 1.5rem; }
+  .section h2 { color: var(--accent); margin-bottom: 1rem; font-size: 1.2rem; }
+  .flag { padding: 0.75rem; background: rgba(248, 81, 73, 0.1); border-left: 3px solid var(--red);
+           margin-bottom: 0.5rem; border-radius: 0 4px 4px 0; }
+  .rec { padding: 0.75rem; background: rgba(88, 166, 255, 0.1); border-left: 3px solid var(--accent);
+          margin-bottom: 0.5rem; border-radius: 0 4px 4px 0; }
+  .footer { text-align: center; color: #8b949e; margin-top: 2rem; padding-top: 1rem;
+             border-top: 1px solid var(--border); }
+  .footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>📊 RC Pulse</h1>
+  <p class="meta">Dark Noise &middot; 2025-01-01 → 2026-03-18 &middot; Generated 2026-03-18 12:07</p>
+  
+  <div class="score-card">
+    <div class="score-number">58</div>
+    <div class="score-grade">🟠 Grade C</div>
+    <div class="dimensions">
+      <div class="dim"><div class="dim-label">Growth</div><div class="dim-value">47</div></div>
+<div class="dim"><div class="dim-label">Retention</div><div class="dim-value">25</div></div>
+<div class="dim"><div class="dim-label">Conversion</div><div class="dim-value">100</div></div>
+<div class="dim"><div class="dim-label">Revenue Quality</div><div class="dim-value">80</div></div>
+<div class="dim"><div class="dim-label">Momentum</div><div class="dim-value">52</div></div>
+
+    </div>
+  </div>
+
+  <div class="metrics-grid">
+    <div class="metric">
+  <div class="metric-name">Revenue</div>
+  <div class="metric-value">$3,227.71</div>
+  <div class="metric-change negative">↓ 30.1% ➡️</div>
+</div>
+<div class="metric">
+  <div class="metric-name">MRR</div>
+  <div class="metric-value">$4,536.72</div>
+  <div class="metric-change negative">↓ 0.6% ➡️</div>
+</div>
+<div class="metric">
+  <div class="metric-name">Active Subscriptions</div>
+  <div class="metric-value">2,521</div>
+  <div class="metric-change negative">↓ 0.6% ➡️</div>
+</div>
+<div class="metric">
+  <div class="metric-name">Churn</div>
+  <div class="metric-value">2,537</div>
+  <div class="metric-change positive">↑ 0.1% ➡️</div>
+</div>
+<div class="metric">
+  <div class="metric-name">Trial Conversion Rate</div>
+  <div class="metric-value">161</div>
+  <div class="metric-change negative">↓ 37.6% ➡️</div>
+</div>
+<div class="metric">
+  <div class="metric-name">New Customers</div>
+  <div class="metric-value">1,079</div>
+  <div class="metric-change negative">↓ 43.3% 📉</div>
+</div>
+<div class="metric">
+  <div class="metric-name">Active Trials</div>
+  <div class="metric-value">77</div>
+  <div class="metric-change positive">↑ 32.8% ➡️</div>
+</div>
+<div class="metric">
+  <div class="metric-name">Refund Rate</div>
+  <div class="metric-value">241</div>
+  <div class="metric-change negative">↓ 30.1% ➡️</div>
+</div>
+
+  </div>
+
+  <div class="section"><h2>⚠️ Risk Flags</h2><div class="flag">Revenue dropped 30.1% last period</div>
+<div class="flag">Trial Conversion Rate dropped 37.6% last period</div>
+<div class="flag">New Customers dropped 43.3% last period</div>
+<div class="flag">Active Trials shows high volatility (CV=37.8%)</div>
+<div class="flag">Refund Rate dropped 30.1% last period</div></div>
+  <div class="section"><h2>💡 Recommendations</h2><div class="rec">🔴 **Retention needs attention.** Consider implementing win-back campaigns, improving onboarding, or surveying churned users to identify pain points.</div>
+<div class="rec">📉 **Growth is stalling.** Evaluate your acquisition channels, consider A/B testing paywalls, and explore new markets or platforms.</div></div>
+
+  <div class="footer">
+    Generated by <a href="https://github.com/CleoSterlingAI/rc-pulse">RC Pulse</a> 
+    &middot; Built by <a href="https://twitter.com/CleoSterlingAI">Cleo Sterling</a>
+  </div>
+</div>
+</body>
+</html>
