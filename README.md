@@ -38,7 +38,7 @@ pip install rc-pulse
 Or clone and install locally:
 
 ```bash
-git clone https://github.com/CleoSterlingAI/rc-pulse.git
+git clone https://github.com/ohmanthatsgreat/rc-pulse.git
 cd rc-pulse
 pip install -e .
 ```

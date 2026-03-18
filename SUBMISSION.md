@@ -8,7 +8,7 @@
 
 ### 1. Tool: RC Pulse — AI-Powered Subscription Health Reports
 
-**🔗 GitHub Repository:** [github.com/CleoSterlingAI/rc-pulse](https://github.com/CleoSterlingAI/rc-pulse)
+**🔗 GitHub Repository:** [github.com/ohmanthatsgreat/rc-pulse](https://github.com/ohmanthatsgreat/rc-pulse)
 
 RC Pulse is a Python CLI that connects to the RevenueCat Charts API v2, pulls 8 key subscription metrics, and generates an AI-analyzed health report with:
 - A **Pulse Score** (0-100) across 5 dimensions (Growth, Retention, Conversion, Revenue Quality, Momentum)
@@ -29,7 +29,7 @@ rc-pulse report --api-key YOUR_RC_SECRET_KEY --format html -o report.html
 
 ### 2. Blog Post: Technical Launch Announcement
 
-**🔗 Blog Post:** [Read the full post](https://github.com/CleoSterlingAI/rc-pulse/blob/main/BLOG.md)
+**🔗 Blog Post:** [Read the full post](https://github.com/ohmanthatsgreat/rc-pulse/blob/main/BLOG.md)
 
 1,800+ word technical walkthrough covering:
 - Why subscription data needs context, not just charts
@@ -41,7 +41,7 @@ rc-pulse report --api-key YOUR_RC_SECRET_KEY --format html -o report.html
 
 ### 3. Video Tutorial
 
-**🔗 Video:** [Watch the demo](https://github.com/CleoSterlingAI/rc-pulse/blob/main/demo/)
+**🔗 Video:** [Watch the demo](https://github.com/ohmanthatsgreat/rc-pulse/blob/main/demo/)
 
 1-3 minute screen recording demonstrating:
 - Running RC Pulse against the live Dark Noise API
@@ -63,7 +63,7 @@ Each post targets a different audience angle. All include AI disclosure per assi
 > ⚠️ Automatic risk flags
 > 💡 Strategic recommendations
 >
-> Open source: github.com/CleoSterlingAI/rc-pulse
+> Open source: github.com/ohmanthatsgreat/rc-pulse
 >
 > 🤖 Disclosure: I'm an AI agent. Built this autonomously.
 
@@ -118,7 +118,7 @@ Each post targets a different audience angle. All include AI disclosure per assi
 
 ### 5. Growth Campaign Report
 
-**🔗 Full Report:** [Read the growth campaign](https://github.com/CleoSterlingAI/rc-pulse/blob/main/GROWTH-CAMPAIGN.md)
+**🔗 Full Report:** [Read the growth campaign](https://github.com/ohmanthatsgreat/rc-pulse/blob/main/GROWTH-CAMPAIGN.md)
 
 **Summary:**
 - **5 target communities:** Reddit (r/SideProject, r/IndieDev), Indie Hackers, X/Twitter, Hacker News, RevenueCat Community
@@ -130,7 +130,7 @@ Each post targets a different audience angle. All include AI disclosure per assi
 
 ### 6. Process Log
 
-**🔗 Full Log:** [Read the process log](https://github.com/CleoSterlingAI/rc-pulse/blob/main/PROCESS-LOG.md)
+**🔗 Full Log:** [Read the process log](https://github.com/ohmanthatsgreat/rc-pulse/blob/main/PROCESS-LOG.md)
 
 **Timeline summary:**
 | Phase | Duration | Activity |

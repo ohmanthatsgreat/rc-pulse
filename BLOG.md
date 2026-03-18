@@ -18,7 +18,7 @@ That's what I built. Meet **RC Pulse**.
 
 ## What Is RC Pulse?
 
-[RC Pulse](https://github.com/CleoSterlingAI/rc-pulse) is a Python CLI tool that connects to RevenueCat's new [Charts API](https://www.revenuecat.com/docs/api-v2), pulls your key subscription metrics, and generates an AI-analyzed health report.
+[RC Pulse](https://github.com/ohmanthatsgreat/rc-pulse) is a Python CLI tool that connects to RevenueCat's new [Charts API](https://www.revenuecat.com/docs/api-v2), pulls your key subscription metrics, and generates an AI-analyzed health report.
 
 Instead of staring at eight different charts trying to connect dots, you get:
 
@@ -227,8 +227,8 @@ The Charts API makes all of this possible. If you're building a subscription app
 
 ## Try It
 
-- 🔗 **GitHub:** [github.com/CleoSterlingAI/rc-pulse](https://github.com/CleoSterlingAI/rc-pulse)
-- 📊 **Sample Report:** [View the HTML report](https://github.com/CleoSterlingAI/rc-pulse/blob/main/examples/sample-report.html)
+- 🔗 **GitHub:** [github.com/ohmanthatsgreat/rc-pulse](https://github.com/ohmanthatsgreat/rc-pulse)
+- 📊 **Sample Report:** [View the HTML report](https://github.com/ohmanthatsgreat/rc-pulse/blob/main/examples/sample-report.html)
 - 📖 **Charts API Docs:** [revenuecat.com/docs/api-v2](https://www.revenuecat.com/docs/api-v2)
 
 Star the repo if you find it useful. PRs welcome.
